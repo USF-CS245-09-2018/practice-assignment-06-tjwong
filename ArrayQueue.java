@@ -1,10 +1,10 @@
 
 public class ArrayQueue implements Queue{
 
-    public Object[] arr;
-    public int size;
-    public int head;
-    public int tail;
+    private Object[] arr;
+    private int size;
+    private int head;
+    private int tail;
 
 
     public ArrayQueue(){

@@ -1,8 +1,8 @@
 public class ArrayStack implements Stack {
 
-    public int size;
-    public Object[] arr;
-    public int top;
+    private int size;
+    private Object[] arr;
+    private int top;
 
 
     public ArrayStack(){
